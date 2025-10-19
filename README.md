@@ -2,7 +2,7 @@
 
 **LINK A PÁGINA WEB**
 
-file:///Users/oscarpatricio/Documents/ejercicios-flexbox-patricio/index.html
+ https://idai-sd2025-avangers-2025.github.io/ejercicios-flexbox-patricio/
 
 **Explicaciones de flexbox y conclusión**
 
