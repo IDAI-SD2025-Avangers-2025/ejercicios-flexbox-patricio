@@ -9,22 +9,55 @@
           .contenedor{
 			width: 23%;
 			height: 400px;
-			background-color: #dedede;
+			background-color: darkblue;
 			float: left;
 			margin: 10px;
+
+               /* Aplicar flexbox */
+
+               display: flex;
+               flex-flow: row nowrap;
+               justify-content: center;
+               align-items: center;
 		}
 
 		.items{
-			background: lightblue;
+			background: lightgreen;
 			width: 100px;
 			margin: 10px;
 			text-align: center;
 			line-height: 100px;
 			font-size: 22px;
 		}
+
+          .c1 .item4{
+
+               align-self: flex-start;
+
+          }
+
+          .c2 .item4{
+
+               align-self: flex-end;
+
+          }
+
+          .c3 .item4{
+
+               align-self: center;
+
+          }
+
+          .c4 .item4{
+
+               align-self: stretch;
+
+          }
+
      </style>
 </head>
-<body>
+
+<body style="background-color: lightskyblue;">
      
      <div class="contenedor c1">
           <div class="items item1">1</div>
@@ -55,6 +88,11 @@
           <div class="items item4">4</div>
      </div>
 
+     <br>
+     <br>
+     <br>
+
+     <a href="index.html" style="color: black;">Regreso a mi página</a>
 
 </body>
 </html>

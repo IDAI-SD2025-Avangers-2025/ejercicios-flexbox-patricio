@@ -9,13 +9,17 @@
           .contenedor{
 			width: 23%;
 			height: 400px;
-			background-color: #dedede;
+			background-color: lightblue;
 			float: left;
 			margin: 10px;
+
+               /* Declarar flexbox */
+
+               display: flex;
           }
 
 		.items{
-			background: lightblue;
+			background: white;
 			width: 100px;
 			height: 100px;
 			margin: 10px;
@@ -23,9 +27,34 @@
 			line-height: 100px;
 			font-size: 22px;
 		}
+
+          .c1{
+
+               flex-flow: column wrap;
+
+          }
+
+          .c2{
+
+               flex-flow: column-reverse wrap-reverse;
+
+          }
+
+          .c3{
+
+               flex-flow: row wrap;
+
+          }
+
+          .c4{
+
+               flex-flow: row-reverse wrap-reverse;
+
+          }
+
      </style>
 </head>
-<body>
+<body style="background-color: lightcoral;">
      
      <div class="contenedor c1">
           <div class="items">1</div>
@@ -55,8 +84,12 @@
           <div class="items">3</div>
           <div class="items">4</div>
      </div>
-       
 
+     <br>
+     <br>
+     <br>
+       
+<a href="index.html" style="color: white;">Regreso a mi página</a>
 
 </body>
 </html>
